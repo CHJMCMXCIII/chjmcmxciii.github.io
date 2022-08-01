@@ -94,7 +94,7 @@ html, body {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .section__list {
-  padding: 1rem 0 1rem 1rem;
+  padding: 1rem 0 1rem 0;
   margin-bottom: 0;
 }
 .section__list dt {
@@ -145,7 +145,7 @@ html, body {
   font-size: 0.875rem;
 }
 .section .text--copy {
-  text-align: right;
+  text-align: left;
   margin-bottom: 2rem;
   font-style: italic;
   font-size: 1rem;
@@ -213,7 +213,7 @@ html, body {
   font-size: 1.15rem;
   color: #fdfdfd;
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 500;
 }
 .box__url:hover {
   text-decoration: underline;
@@ -235,6 +235,12 @@ html, body {
 }
 .box__url-dl {
   background-color: #4285f4;
+}
+.box__url-pl {
+  background-color: #fa5252;
+}
+.box__url-e1 {
+  background-color: #fb670e;
 }
 
 @media screen and (min-width: 1024px) {
@@ -291,4 +297,4 @@ html, body {
   }
 }
 
-/*# sourceMappingURL=/style.107f5acc.css.map */
+/*# sourceMappingURL=/style.6b54f5b7.css.map */
